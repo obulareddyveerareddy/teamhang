@@ -13,6 +13,7 @@ import { Switch, Route } from 'react-router-dom';
 import HomePage from 'containers/HomePage/Loadable';
 import NotFoundPage from 'containers/NotFoundPage/Loadable';
 
+import 'materialize-css/dist/css/materialize.min.css';
 import GlobalStyle from '../../global-styles';
 
 export default function App() {
